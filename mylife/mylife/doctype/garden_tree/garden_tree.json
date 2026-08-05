@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "autoname": "field:tree_code",
+ "creation": "2026-08-04 20:47:53.747094",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tree_code",
+  "tree_name",
+  "status",
+  "tree_image",
+  "tree_description",
+  "section_system",
+  "legacy_tree_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "tree_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tree Code",
+   "length": 7,
+   "reqd": 1,
+   "set_only_once": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "tree_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tree Name",
+   "reqd": 1
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_system",
+   "fieldtype": "Section Break",
+   "label": "System Information"
+  },
+  {
+   "fieldname": "legacy_tree_id",
+   "fieldtype": "Int",
+   "label": "Legacy Tree ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tree_image",
+   "fieldtype": "Attach Image",
+   "label": "Tree Image"
+  },
+  {
+   "fieldname": "tree_description",
+   "fieldtype": "Small Text",
+   "label": "Tree Description"
+  }
+ ],
+ "grid_page_length": 50,
+ "image_field": "tree_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-08-04 21:05:47.765307",
+ "modified_by": "devteam@agardenwalk.net",
+ "module": "MyLife",
+ "name": "Garden Tree",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Garden Tree Admin",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "tree_name"
+}
