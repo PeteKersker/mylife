@@ -1,0 +1,49 @@
+[
+ {
+  "app": "mylife",
+  "docstatus": 0,
+  "doctype": "Workspace Sidebar",
+  "for_user": null,
+  "header_icon": "leaf",
+  "items": [
+   {
+    "child": 0,
+    "collapsible": 1,
+    "filters": null,
+    "icon": "trees",
+    "indent": 0,
+    "keep_closed": 0,
+    "label": "Root Groups",
+    "link_to": "Garden Root Group",
+    "link_type": "DocType",
+    "navigate_to_tab": null,
+    "route_options": null,
+    "show_arrow": 0,
+    "type": "Link",
+    "url": null
+   },
+   {
+    "child": 0,
+    "collapsible": 1,
+    "filters": null,
+    "icon": "tree-palm",
+    "indent": 0,
+    "keep_closed": 0,
+    "label": "Branch Groups",
+    "link_to": "Garden Branch Group",
+    "link_type": "DocType",
+    "navigate_to_tab": null,
+    "route_options": null,
+    "show_arrow": 0,
+    "type": "Link",
+    "url": null
+   }
+  ],
+  "modified": "2026-08-08 10:02:38.485861",
+  "module": "MyLife",
+  "module_onboarding": null,
+  "name": "My Life",
+  "standard": 1,
+  "title": "My Life"
+ }
+]

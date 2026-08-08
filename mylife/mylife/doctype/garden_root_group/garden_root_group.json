@@ -1,38 +1,21 @@
 {
  "actions": [],
  "allow_bulk_edit": 1,
- "autoname": "field:tree_code",
+ "autoname": "field:root_group_code",
  "creation": "2026-08-04 20:47:53.747094",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "tree_code",
-  "tree_name",
+  "root_group_code",
+  "root_group_name",
   "status",
-  "tree_image",
-  "tree_description",
+  "root_group_image",
+  "root_group_description",
   "section_system",
-  "legacy_tree_id"
+  "pathbook_root_group_id"
  ],
  "fields": [
-  {
-   "fieldname": "tree_code",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Tree Code",
-   "length": 7,
-   "reqd": 1,
-   "set_only_once": 1,
-   "unique": 1
-  },
-  {
-   "fieldname": "tree_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Tree Name",
-   "reqd": 1
-  },
   {
    "default": "Active",
    "fieldname": "status",
@@ -47,30 +30,47 @@
    "label": "System Information"
   },
   {
-   "fieldname": "legacy_tree_id",
-   "fieldtype": "Int",
-   "label": "Legacy Tree ID",
-   "read_only": 1
+   "fieldname": "root_group_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Root Group Code",
+   "length": 7,
+   "reqd": 1,
+   "set_only_once": 1,
+   "unique": 1
   },
   {
-   "fieldname": "tree_image",
+   "fieldname": "root_group_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Root Group Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "root_group_image",
    "fieldtype": "Attach Image",
-   "label": "Tree Image"
+   "label": "Root Group Image"
   },
   {
-   "fieldname": "tree_description",
+   "fieldname": "root_group_description",
    "fieldtype": "Small Text",
-   "label": "Tree Description"
+   "label": "Root Group Description"
+  },
+  {
+   "fieldname": "pathbook_root_group_id",
+   "fieldtype": "Int",
+   "label": "Pathbook Root Group ID",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
- "image_field": "tree_image",
+ "image_field": "root_group_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-08-04 21:05:47.765307",
- "modified_by": "devteam@agardenwalk.net",
+ "modified": "2026-08-05 18:16:23.881976",
+ "modified_by": "Administrator",
  "module": "MyLife",
- "name": "Garden Tree",
+ "name": "Garden Root Group",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
@@ -104,5 +104,5 @@
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
- "title_field": "tree_name"
+ "title_field": "root_group_name"
 }

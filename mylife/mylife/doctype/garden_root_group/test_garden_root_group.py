@@ -13,9 +13,9 @@ IGNORE_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 
 
 
-class IntegrationTestGardenTree(IntegrationTestCase):
+class IntegrationTestGardenRootGroup(IntegrationTestCase):
 	"""
-	Integration tests for GardenTree.
+	Integration tests for GardenRootGroup.
 	Use this class for testing interactions between multiple components.
 	"""
 
